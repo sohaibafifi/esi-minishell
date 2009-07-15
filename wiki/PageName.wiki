@@ -1,7 +1,7 @@
 #labels Phase-Design,Phase-Implementation,Phase-Support
 Le but de ce TP est de programmer un shell minimal en C.
 
-= Analyse du travail: =
+== Analyse du travail: ==
 
          Notre shell sera une simple boucle d'interaction qui affiche une invite de
 commande coloré (prompt()), lit une ligne entrée au clavier (lire()), analyser
@@ -91,6 +91,7 @@ l’exécution de cette commande)
              * *history* : affiche l’historique des commandes.
              * *cd* : change le répertoire courant. Cette commande accepte aussila  variable ~ du répertoire HOME.
              * *Help* :affiche l’aide sur les commandes internes.
+==Jeu d’essais :==
 *Notre mini Shell a pu interpréter ces testes :*
 {{{
 Programme
@@ -107,7 +108,7 @@ exit
 cd ~
 set PATH /usr/bin
 }}}
-===Remarques===
+==Remarques==
        Pour compiler le code source vous devez avoir les bibliothèques
 suivantes :
        *    Libc6-dev.
