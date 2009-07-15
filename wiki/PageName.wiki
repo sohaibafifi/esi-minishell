@@ -1,4 +1,4 @@
-#labels Phase-Design,Phase-Implementation,Phase-Support
+#labels Phase-Design,Phase-Implementation,Phase-Support,Featured,Phase-Requirements,Phase-Deploy
 Le but de ce TP est de programmer un shell minimal en C.
 
 == Analyse du travail: ==
