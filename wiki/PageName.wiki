@@ -34,7 +34,7 @@ le handler du signal SIGCHLD et la commande waitpid(2)...)
 termine mais redonne tout de suite la main à l'utilisateur. Toutefois, le shell devra
 tout de même détecter la terminaison (asynchrone) des programmes en tâche de
 fond afin de:
- *éviter les processus zombies,
+ *eviter les processus zombies,
  *prévenir l'utilisateur de la bonne ou mauvaise terminaison de la
   commande.
 
