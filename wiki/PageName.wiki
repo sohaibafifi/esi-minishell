@@ -115,3 +115,8 @@ suivantes :
        *    Libreadline-dev.
             On a crée un script shell *run.sh* qui va tous faire pour la compilation
        et l’exécution.
+       Ou bien utiliser la commande make 
+{{{
+make 
+make test
+}}}
