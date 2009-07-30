@@ -117,6 +117,7 @@ suivantes :
        et l’exécution.
        Ou bien utiliser la commande make 
 {{{
+sudo make prerequisites
 make 
 make test
 }}}
